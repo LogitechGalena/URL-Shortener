@@ -1,4 +1,8 @@
 import requests
+from colorama import init 
+from termcolor import colored 
+
+init()
 
 def shortenURL():
     url = input("URL to shorten: ")
@@ -13,8 +17,8 @@ def shortenURL():
         print("Error: ")
         print(r.json())
     else:
-        print("Result URL:")
-        print(r.json()["result_url"])
+        print(colored("Result URL:", 'green'))
+        print(colored(r.json()["result_url"], 'yellow'))
 
 while True:
     shortenURL()
