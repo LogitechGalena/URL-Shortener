@@ -26,3 +26,5 @@ Unfortunately, you can't just get any old link and plop it in there. It has to b
 http://www.example.com/
 ```
 Something important: Most links, when copied, don't include the `www`. However, this is important as the API used only takes full complete URLs. If you get an error, this is most likely the case.
+
+![CLI Image](https://github.com/LogitechGalena/URL-Shortener/blob/main/CLI.png)
